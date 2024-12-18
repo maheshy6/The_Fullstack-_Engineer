@@ -1,0 +1,28 @@
+#navCont {
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+
+.right{
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+}
+
+html body {
+    margin: 0px;
+}
