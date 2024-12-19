@@ -1,44 +1,60 @@
-import React, { useState } from 'react'
-import './LoginSignUp.css'
-import user_icon from '../assets/person.png'
-import email_icon from '../assets/email.png'
-import password_icon from '../assets/password.png'
+import React, { useState } from 'react';
 
-
- const LoginSignUp = () => {
-
-    const [action,setAction] = useState("Sign Up");
-
+function App() {
+  const [isLogin, setIsLogin] = useState(true);
 
   return (
-    <div className='container'>
-        <div className="header">
-            <div className="text">{action}</div>
-            <div className="underline"></div>
+    <div className="auth-container">
+      <div className="form-container">
+        <div className="logo">Tarvel Planner</div>
+        <div className="tab-buttons">
+          <button
+            className={isLogin ? 'active' : ''}
+            onClick={() => setIsLogin(true)}
+          >
+            Login
+          </button>
+          <button
+            className={!isLogin ? 'active' : ''}
+            onClick={() => setIsLogin(false)}
+          >
+            Signup
+          </button>
         </div>
-        <div className="inputs">
-            {action==="Login"?<div></div>: <div className="input">
-                <img src={user_icon} alt="" />
-                <input type="text" placeholder="Enter Name" />
-            </div>}
-           
-            <div className="input">
-                <img src={email_icon} alt="" />
-                <input type="email" placeholder="Enter E-mail" />
+        {isLogin ? (
+          <div className="login-form">
+            <h2>Login</h2>
+            <form>
+              <input type="email" placeholder="Enter your email" required />
+              <input type="password" placeholder="Enter your password" required />
+              <button className="submit-button" type="submit">Login</button>
+            </form>
+            <div className="footer-text">
+              <a href="#">Forgot password?</a>
+              <p>
+                Want to create account? <span onClick={() => setIsLogin(false)}>Signup</span>
+              </p>
             </div>
-            <div className="input">
-                <img src={password_icon} alt="" />
-                <input type="password" placeholder="Enter Password"/>
+          </div>
+        ) : (
+          <div className="signup-form">
+            <h2>Create Account</h2>
+            <form>
+              <input type="text" placeholder="Enter your name" required />
+              <input type="email" placeholder="Enter your email" required />
+              <input type="password" placeholder="Enter your password" required />
+              <button className="submit-button" type="submit">Signup</button>
+            </form>
+            <div className="footer-text">
+              <p>
+                Already have an account? <span onClick={() => setIsLogin(true)}>Login now</span>
+              </p>
             </div>
-        </div>
-        {action==="Sign Up"?<div></div>:<div className="forgot-password">Lost Password? <span>Click Here!</span></div>}
-        
-        <div className="submit-container">
-            <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
-            <div className={action==="Sign Up"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
-        </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
 
-export default LoginSignUp
+export default App;
