@@ -4,8 +4,7 @@ import HomePage from './components/HomePage'
 import LoginSignup from './components/LoginSignup'
 import './nav.css'
 import './footer.css'
-import './services.css'
-import Services from './components/Services'
+import './Login.css'
 
 
 function App() {
