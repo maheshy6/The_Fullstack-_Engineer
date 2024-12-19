@@ -1,89 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f8f8f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .auth-container {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-    background: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form-container {
-    text-align: center;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff007f;
-    margin-bottom: 20px;
-  }
-  
-  .tab-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .tab-buttons button {
-    flex: 1;
-    padding: 10px 0;
-    border: none;
-    background: #fff;
-    color: #ff007f;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .tab-buttons button.active {
-    border-bottom: 2px solid #ff007f;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form input {
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .submit-button {
-    background: #ff007f;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .footer-text {
-    margin-top: 10px;
-  }
-  
-  .footer-text a {
-    color: #ff007f;
-    text-decoration: none;
-  }
-  
-  .footer-text span {
-    color: #ff007f;
-    cursor: pointer;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff007f;
+  margin-bottom: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  background: #fff;
+  color: #ff007f;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tab-buttons button.active {
+  border-bottom: 2px solid #ff007f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button {
+  background: #ff007f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.footer-text a {
+  color: #ff007f;
+  text-decoration: none;
+}
+
+.footer-text span {
+  color: #ff007f;
+  cursor: pointer;
+}

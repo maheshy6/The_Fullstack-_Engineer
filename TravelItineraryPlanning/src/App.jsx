@@ -11,10 +11,9 @@ function App() {
 
   return (
     <>
-    <LoginSignup/>
-    {/* <Navbar/>
+    <Navbar/>
     <HomePage/>
-    <Footer/> */}
+    <Footer/>
     </>
 
   )
