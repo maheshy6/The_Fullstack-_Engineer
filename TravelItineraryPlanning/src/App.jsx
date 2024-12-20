@@ -5,6 +5,8 @@ import LoginSignup from './components/LoginSignup'
 import './nav.css'
 import './footer.css'
 import './Login.css'
+import Services from './components/Services'
+import './services.css'
 
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
     <>
     {/* <Navbar/>
     <HomePage/>
-    <Footer/> */}
+    <Footer/>
+
+    <LoginSignup /> */}
     
     <Services />
     </>
