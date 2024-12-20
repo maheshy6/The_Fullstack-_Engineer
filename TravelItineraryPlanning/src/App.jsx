@@ -5,6 +5,9 @@ import LoginSignup from './components/LoginSignup'
 import './nav.css'
 import './footer.css'
 import './Login.css'
+import './share.css'
+import RealTimeCollaboration from './components/RealTimeCollaboration'
+import ShareItinerary from './components/ShareItinerary'
 
 
 function App() {
@@ -13,9 +16,16 @@ function App() {
     <>
     {/* <Navbar/>
     <HomePage/>
+
+    < LoginSignup/>
+    <Footer/>
+    <RealTimeCollaboration/>
+    <ShareItinerary/>
+
     <Footer/> */}
     
     <Services />
+
     </>
 
   )
