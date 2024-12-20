@@ -1,4 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+// import './LoginSignUp.css'
+// import user_icon from '../assets/person.png'
+// import email_icon from '../assets/email.png'
+// import password_icon from '../assets/password.png'
+
+
+ const LoginSignUp = () => {
+
+    const [action,setAction] = useState("Sign Up");
 
 function App() {
   const [isLogin, setIsLogin] = useState(true);
@@ -55,6 +64,6 @@ function App() {
       </div>
     </div>
   );
-}
+}}
 
 export default App;
