@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
+// import { useNavigate } from "react-router-dom";
 import Navbar from "./navbar";
 import Footer from "./Footer";
 import axios from "axios";
+
+
 
 //dependencies :- axios
 
@@ -31,6 +34,13 @@ function Services() {
     }
     return Object.entries(getData).filter(([id, value]) => value.type === filter);
   };
+
+
+  // const navigate = useNavigate();
+{/* <Route path="/book-now" element={<BookNow />} /> */}
+  // function RedirectPage(){
+  //   navigate("/booking");
+  // }
 
   return (
     <div>
@@ -62,7 +72,7 @@ function Services() {
               <p><b>Style : </b>{value.style}</p>
               <p><b>Type : </b>{value.type}</p>
               <p><b>Price : </b> ₹{value.price}</p>
-              
+              <button  className="btn2">Book Now</button>
             </div>
           </div>
         ))}
