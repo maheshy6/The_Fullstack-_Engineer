@@ -14,12 +14,18 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/>
     <HomePage/>
+
     < LoginSignup/>
     <Footer/>
     <RealTimeCollaboration/>
     <ShareItinerary/>
+
+    <Footer/> */}
+    
+    <Services />
+
     </>
 
   )
