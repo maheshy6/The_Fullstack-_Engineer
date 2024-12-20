@@ -6,8 +6,18 @@ import Services from './components/Services'
 import './services.css'
 import './nav.css'
 import './footer.css'
+
+// import './Login.css'
+// import './share.css'
+import RealTimeCollaboration from './components/RealTimeCollaboration'
+import ShareItinerary from './components/ShareItinerary'
+import Services from './components/Services'
+import './services.css'
+import AllDestinations from './components/AllDestinations'
+import './allDestinations.css'
+
 import './Login.css'
-import './card.css'
+
 
 
 
@@ -15,12 +25,39 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/>
+
+    <HomePage/> */}
+
+
+    {/* <HomePage/>
+
+    < LoginSignup/> */}
+
     <HomePage/>
-    {/* < LoginSignup/> */}
+
+    < LoginSignup/>
+
+    {/* <Footer/>
+    <RealTimeCollaboration/>
+
+    <ShareItinerary/> */}
+
+
+    {/* <ShareItinerary/>
+
+    <Footer/> */}
+    
+    {/* <Services /> */}
+
+    <AllDestinations />
+
+    <ShareItinerary/>
+
     <Footer/>
     
-    {/* <Services/>  */}
+    <Services />
+
 
 
     </>
