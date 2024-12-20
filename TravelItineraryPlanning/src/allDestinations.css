@@ -1,0 +1,23 @@
+.container1 {
+  /* border: 10px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.img-box {
+  width: 40%;
+  /* border: 2px solid black; */
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.btnBox {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
