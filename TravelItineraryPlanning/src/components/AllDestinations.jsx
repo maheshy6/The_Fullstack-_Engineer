@@ -1,7 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+
 
 function AllDestinations() {
   const [getData, setGetData] = useState({});
@@ -31,7 +33,7 @@ function AllDestinations() {
   }, []);
   return (
     <>
-    <Navbar />
+    
      <div className="btnBox">
         <button className="btn"  onClick={() => setFilter("all")}>All</button>
         <button className="btn" onClick={() => setFilter("popular")}>Popular</button>
@@ -48,7 +50,7 @@ function AllDestinations() {
           </div>
         ))}
       </div>
-      <Footer />
+      
     </>
   );
 }

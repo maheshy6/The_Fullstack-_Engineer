@@ -50,14 +50,14 @@
 }
 
 .btn{
+  background-color: black;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   margin: 5px;
-  background-color: white;
-  color: #202020;
+  color: white;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
 }
 
 .btn.active {
