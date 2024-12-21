@@ -2,14 +2,7 @@ import React from "react"
 
 function HomePage() {
     return (
-        <>
-
-            <div className="travel-cards">
-                <div className="card">
-                    <img src="" alt="Destination 1" />
-                    <div className="card-content">
-
-            
+        <>   
             <div class="travel-cards">
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPH8aZoVtyUvzaNsjKEkLYcg8GDfz_noO5Q&s" alt="Destination 1" />
@@ -18,13 +11,9 @@ function HomePage() {
                         <h3>Maldives</h3>
                         <p>Experience crystal-clear waters, white sand beaches, and luxurious resorts.</p>
                         <button>Explore More</button>
-                    </div>
+                    </div> 
+                    
                 </div>
-
-                <div className="card">
-                    <img src="" alt="Destination 2" />
-                    <div className="card-content">
-
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsLViZtk9l0yRfk3plHLcyOyRJahdGrpy72Q&s" alt="Destination 2" />
                     <div class="card-content">
@@ -34,10 +23,6 @@ function HomePage() {
                         <button>Explore More</button>
                     </div>
                 </div>
-
-                <div className="card">
-                    <img src="" alt="Destination 3" />
-                    <div className="card-content">
 
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjT6bnNy54ZG276Pt1v3KVOKxo9azFLmnU5Q&s" alt="Destination 3" />
@@ -49,10 +34,6 @@ function HomePage() {
                     </div>
                 </div>
 
-                <div className="card">
-                    <img src="" alt="Destination 3" />
-                    <div className="card-content">
-
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiRppDytIT_QUz52KSEPt2fIQuICS6X7OzQ&s" alt="Destination 3" />
                     <div class="card-content">
@@ -62,10 +43,6 @@ function HomePage() {
                         <button>Explore More</button>
                     </div>
                 </div>
-
-                <div className="card">
-                    <img src="" alt="Destination 4" />
-                    <div className="card-content">
 
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCq8rpRvHfKOGVYbYVDH8GapQmjpjImg8G2g&s" alt="Destination 4" />
@@ -77,10 +54,6 @@ function HomePage() {
                     </div>
                 </div>
 
-                <div className="card">
-                    <img src="" alt="Destination 5" />
-                    <div className="card-content">
-
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGZyUvemq7zdO_nWEDUDwXc3z1ykzkQrQlcg&s" alt="Destination 5" />
                     <div class="card-content">
@@ -90,11 +63,6 @@ function HomePage() {
                         <button>Explore More</button>
                     </div>
                 </div>
-
-                <div className="card">
-                    <img src="" alt="Destination 6" />
-                    <div className="card-content">
-
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjcZ6BI3fcv3wbF6yWGDs0M4WTNI6PO-JHw&s" alt="Destination 6" />
                     <div class="card-content">
@@ -104,10 +72,6 @@ function HomePage() {
                         <button>Explore More</button>
                     </div>
                 </div>
-
-                <div className="card">
-                    <img src="" alt="Destination 7" />
-                    <div className="card-content">
 
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGPnnugopr9p6pp2hT1Muu0hl6HpgS_oFFwA&s" alt="Destination 7" />
@@ -119,10 +83,6 @@ function HomePage() {
                     </div>
                 </div>
 
-                <div className="card">
-                    <img src="" alt="Destination 8" />
-                    <div className="card-content">
-
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Z9owEq_h7WJlJON0cPPy3bcfo-uDIQ5Uvg&s" alt="Destination 8" />
                     <div class="card-content">
@@ -132,10 +92,6 @@ function HomePage() {
                         <button>Explore More</button>
                     </div>
                 </div>
-
-                <div className="card">
-                    <img src="" alt="Destination 9" />
-                    <div className="card-content">
 
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Mo-uUeVwDfA3E29l3KZwPZQ6cDAjftot_g&s" alt="Destination 9" />
@@ -147,10 +103,6 @@ function HomePage() {
                     </div>
                 </div>
 
-                <div className="card">
-                    <img src="" alt="Destination 10" />
-                    <div className="card-content">
-
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCXTIY14OZC7ItRbbwqST40UWzCH6vnvEURw&s" alt="Destination 10" />
                     <div class="card-content">
@@ -160,9 +112,8 @@ function HomePage() {
                         <button>Explore More</button>
                     </div>
                 </div>
-            </div>
+                </div>
         </>
     )
-}
-
+}    
 export default HomePage

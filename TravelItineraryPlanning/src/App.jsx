@@ -4,12 +4,9 @@ import HomePage from './components/HomePage'
 import LoginSignup from './components/LoginSignup'
 import './nav.css'
 import './footer.css'
-
 import './services.css'
-
 import './card.css'
 import AllDestinations from './components/AllDestinations'
-
 import './allDestinations.css'
 import './Login.css'
 import './card.css'
@@ -24,13 +21,6 @@ function App() {
   return (
     <>
     <Navbar/>
-
-    
-    <Footer />
-
-    <HomePage/>
-    {/* <LoginSignup/> */}
-    {/* <AllDestinations/> */}
     <Footer/>
 
     </>
