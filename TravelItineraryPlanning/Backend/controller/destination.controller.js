@@ -27,3 +27,6 @@ const getDestination=async(req,res)=>{
 }
 
 export {addDestination , getDestination}
+
+
+
