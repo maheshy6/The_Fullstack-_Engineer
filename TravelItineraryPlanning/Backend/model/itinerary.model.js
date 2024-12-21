@@ -5,7 +5,6 @@ const tripdata = new Schema({
     email:{type:String ,required:true},
     destination:{type:String ,required:true},
     startDate:{type:String,required:true},
-    endDate:{type:String ,default:""},
     budget:{type:Number ,default:""}
 })
 
