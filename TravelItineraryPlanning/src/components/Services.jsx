@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { useNavigate } from "react-router-dom";
-import Navbar from "./navbar";
-import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 
@@ -36,15 +34,15 @@ function Services() {
   };
 
 
-  // const navigate = useNavigate();
-{/* <Route path="/book-now" element={<BookNow />} /> */}
-  // function RedirectPage(){
-  //   navigate("/booking");
-  // }
+  const navigate = useNavigate();
+
+  function BookingPage(id){
+    navigate(`/booking/${id}`);
+  }
 
   return (
     <div>
-      <Navbar />
+      
       <div className="image-container">
         <img
           src="https://t4.ftcdn.net/jpg/08/58/42/39/360_F_858423980_xg0UIh9XUAndF89lkTqQAzcaWO23naQ0.jpg"
@@ -72,13 +70,13 @@ function Services() {
               <p><b>Style : </b>{value.style}</p>
               <p><b>Type : </b>{value.type}</p>
               <p><b>Price : </b> ₹{value.price}</p>
-              <button  className="btn2">Book Now</button>
+              <button onClick={()=>BookingPage(id)} className="btn2">Book Now</button>
             </div>
           </div>
         ))}
       </div>
 
-      <Footer />
+      
     </div>
   );
 }
