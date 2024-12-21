@@ -14,10 +14,10 @@ const transporter = nodemailer.createTransport({
 
 //add new Destination
 const addTrip=async(req,res)=>{
-    const {username,email,destination,startDate,endDate,budget}=req.body
+    const {username,email,destination,startDate,budget}=req.body
     try {
         const newTrip = await Trip({
-            username,email,destination,startDate,endDate,budget
+            username,email,destination,startDate,budget
         })
         await newTrip.save()
 
@@ -30,7 +30,7 @@ const addTrip=async(req,res)=>{
                     <h2 style="color: #4CAF50; text-align: center;">Trip Confirmation</h2>
                     <p style="font-size: 16px;">Dear <strong>${username}</strong>,</p>
                     <p style="font-size: 16px;">Your trip to <strong>${destination}</strong> has been confirmed!</p>
-                    <p style="font-size: 16px;">It will start from <strong>${startDate}</strong> and end on <strong>${endDate || "N/A"}</strong>.</p>
+                    <p style="font-size: 16px;">It will start from <strong>${startDate}</strong> and end on <strong>${ "N/A"}</strong>.</p>
                     <p style="font-size: 16px; color: #4CAF50;"><strong>Your estimated budget is ₹${budget || "N/A"}</strong>.</p>
                     <p style="font-size: 16px;">We wish you a wonderful trip! If you have any questions, feel free to contact us.</p>
                     <p style="color: #777; font-size: 14px; text-align: center; margin-top: 20px;">&copy; 2024 The Itinerary Planning Tool. All rights reserved.</p>
@@ -53,7 +53,7 @@ const addTrip=async(req,res)=>{
                 timeZone: 'Asia/Kolkata'
             },
             end: {
-                dateTime: formatDateTime(endDate),
+                dateTime: formatDateTime(startDate),
                 timeZone: 'Asia/Kolkata'
             }
         };
@@ -70,7 +70,20 @@ const addTrip=async(req,res)=>{
     }
 }
 
+//delete Trip
+const deleteTrip=async(req,res)=>{
+    const {id}=req.params
+    let _id = toString(id)
+    try {
+        const updatedTrips = await Trip.findByIdAndDelete({_id})
+        res.status(200).json(updatedTrips) 
 
+    } 
+    catch (error) {
+        console.log(error.message)
+        res.status(400).json({message:"Trip not found"})
+    }
+}
 
 
 
@@ -87,5 +100,5 @@ const getTrip=async(req,res)=>{
     }
 }
 
-export {addTrip,getTrip}
+export {addTrip,getTrip ,deleteTrip}
 
