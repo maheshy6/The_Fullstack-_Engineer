@@ -1,58 +1,52 @@
-/* body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  } */
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1a1a1a;
-    padding: 0.5rem 2rem;
-    color: white;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  .logo-icon {
-    color: #00aaff;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #00aaff;
-  }
-  
-  .signup-btn {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .signup-btn:hover {
-    background-color: white;
-    color: #1a1a1a;
-  }
-  
+/* Navbar Container */
+#navCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a; /* Black background */
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Logo Section */
+#navCont .logo img {
+  height: 80px;
+  width: 80px; 
+  cursor: pointer;
+}
+
+/* Center Links Section */
+#navCont .center {
+  display: flex;
+  gap: 20px;
+}
+
+#navCont .center a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#navCont .center a:hover {
+  color: #f0ad4e; /* Hover effect for links */
+}
+
+/* Right Section */
+#navCont .right .signup-button {
+  border: 1px solid white;
+  padding: 8px 20px;
+  color: white;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#navCont .right .signup-button:hover {
+  background-color: white;
+  color: black;
+}
