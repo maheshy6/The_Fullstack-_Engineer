@@ -1,7 +1,6 @@
 function HomePage() {
     return (
         <>
-            
             <div class="travel-cards">
                 <div class="card">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPH8aZoVtyUvzaNsjKEkLYcg8GDfz_noO5Q&s" alt="Destination 1" />
