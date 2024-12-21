@@ -1,6 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
 
 function AllDestinations() {
   const [getData, setGetData] = useState({});
