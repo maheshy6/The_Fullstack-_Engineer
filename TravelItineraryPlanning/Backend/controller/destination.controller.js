@@ -14,6 +14,7 @@ const addDestination=async(req,res)=>{
         res.status(400).json({message:"Destination not added"})
     }
 }
+// ho
 
 //Get all Destination
 const getDestination=async(req,res)=>{
