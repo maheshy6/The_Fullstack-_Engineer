@@ -57,4 +57,7 @@ List and provide a brief overview of the technologies used in the project.
 The Travel Planner is a web application designed to help users organize their trips efficiently. Below is a screenshot of the homepage:
 
 [!(assets/Screenshot 2024-12-22 210452.png)](https://github.com/maheshy6/The_Fullstack-_Engineer/blob/main/TravelItineraryPlanning/src/assets/Screenshot%202024-12-22%20210452.png)
-TravelItineraryPlanning/src/assets/Screenshot 2024-12-22 210509.png
+[TravelItineraryPlanning/src/assets/Screenshot 2024-12-22 210509.png](https://github.com/maheshy6/The_Fullstack-_Engineer/blob/main/TravelItineraryPlanning/src/assets/Screenshot%202024-12-22%20210509.png)
+https://github.com/maheshy6/The_Fullstack-_Engineer/blob/main/TravelItineraryPlanning/src/assets/Screenshot%202024-12-22%20210524.png
+https://github.com/maheshy6/The_Fullstack-_Engineer/blob/main/TravelItineraryPlanning/src/assets/Screenshot%202024-12-22%20210535.png
+
