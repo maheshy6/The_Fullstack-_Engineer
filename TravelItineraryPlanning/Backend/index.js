@@ -16,7 +16,7 @@ app.use("/api/users/trips",tripRoute)
 //MongoDb setup and express server connection
 const port =process.env.PORT || 3000
 
-app.listen(port,async(req,res)=>{
+app.listen(5173,async(req,res)=>{
     await mongoose.connect(process.env.MONGODB_CLOUD_URL)
     console.log("connected to mongodb atlas")
     // await mongoose.connect(process.env.MONGODBURL)
