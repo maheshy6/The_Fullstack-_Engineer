@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import HomePage from "./HomePage";
 import Services from "./Services";
 import AllDestinations from "./AllDestinations";
 import LoginSignup from "./LoginSignup";
@@ -30,7 +29,6 @@ function Navbar() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/allDestinations" element={<AllDestinations />} />
         <Route path="/loginSignup" element={<LoginSignup />} />
