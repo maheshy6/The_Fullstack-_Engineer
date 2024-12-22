@@ -5,13 +5,14 @@ import destinationRoute from "./routes/destination.route.js";
 import userRoute from "./routes/user.route.js";
 import tripRoute from "./routes/itinerary.route.js";
 
+
 const app=express();
 
 app.use(express.json())
 app.use("/api",destinationRoute)
 app.use("/api/users",userRoute)
 app.use("/api/users/trips",tripRoute)
-
+//The backend of this project is deployed on render link = https://cwptest.onrender.com/api/
 //MongoDb setup and express server connection
 const port =process.env.PORT || 3000
 
