@@ -35,7 +35,7 @@ function Footer() {
                         <p>instagram</p>
                         <p>You Tube</p>
                         <p>Twitter</p>
-                        <p>Linkdle</p>
+                        <p>Linkedle</p>
                     </div>
                 </section>
                 <hr/>
@@ -52,7 +52,7 @@ function Footer() {
                         <h3>Plan Your Itinerary</h3>
                     </div>
                     <div>
-                        <p></p>
+                        <p>© 2024 Traval Planner. All Rights Reserved.</p>
                     </div>
                 </section>
             </footer>
