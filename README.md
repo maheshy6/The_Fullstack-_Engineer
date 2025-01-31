@@ -1,7 +1,7 @@
 ﻿# Traval Planner
 
 ## Introduction
-A Travel Planner is a web-based or mobile application designed to simplify and enhance the process of planning trips. It allows users to organize their travel itinerary by providing features such as:
+A Travel Planner is a web application designed to simplify and enhance the process of planning trips. It allows users to organize their travel itinerary by providing features such as:
 
 Destination Search: Users can explore popular destinations, landmarks, or attractions.
 Itinerary Management: Create day-to-day plans by adding activities, accommodations, and travel times.
