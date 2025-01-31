@@ -41,15 +41,15 @@ function Footer() {
                         <p>contact us</p>
                     </div>
                 </section>
-                {/* <hr style="margin: 10px;" /> */}
+                <hr/>
                 <section className="bottom">
                     <div>
-                        <i className="fa-solid fa-credit-card"></i>
-                        <i className="fa-solid fa-credit-card"></i>
-                        <i className="fa-solid fa-credit-card"></i>
-                        <i className="fa-solid fa-credit-card"></i>
-                        <i className="fa-solid fa-credit-card"></i>
-                        <i className="fa-solid fa-credit-card"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
                     </div>
                     <div>
                         <h3>Plan Your Itinerary</h3>
