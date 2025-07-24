@@ -12,7 +12,7 @@ The Travel Planner project you worked on likely combines some or all of these fe
 Frontend | Backend | Fullstack
 
 ## Deplolyed App
-App link :-https://extraordinary-shortbread-9a5479.netlify.app/
+App link :-deft-zabaione-689b02.netlify.app
 
 ## Directory Structure
 my-app/
@@ -20,8 +20,6 @@ my-app/
 ├─ frontend/
 │  ├─ ...
 
-## Video Walkthrough of the project
-https://youtu.be/V-7tCGrmcKo
 
 
 ## Features
