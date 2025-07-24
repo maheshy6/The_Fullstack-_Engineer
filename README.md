@@ -12,7 +12,7 @@ The Travel Planner project you worked on likely combines some or all of these fe
 Frontend | Backend | Fullstack
 
 ## Deplolyed App
-App link :-deft-zabaione-689b02.netlify.app
+App link :- https://deft-zabaione-689b02.netlify.app/
 
 ## Directory Structure
 my-app/
