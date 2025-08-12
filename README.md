@@ -12,7 +12,7 @@ The Travel Planner project you worked on likely combines some or all of these fe
 Frontend | Backend | Fullstack
 
 ## Deplolyed App
-App link :- https://deft-zabaione-689b02.netlify.app/
+App link :- https://superb-stardust-047067.netlify.app/
 
 ## Directory Structure
 my-app/
@@ -58,4 +58,5 @@ The Travel Planner is a web application designed to help users organize their tr
 [TravelItineraryPlanning/src/assets/Screenshot 2024-12-22 210509.png](https://github.com/maheshy6/The_Fullstack-_Engineer/blob/main/TravelItineraryPlanning/src/assets/Screenshot%202024-12-22%20210509.png)
 https://github.com/maheshy6/The_Fullstack-_Engineer/blob/main/TravelItineraryPlanning/src/assets/Screenshot%202024-12-22%20210524.png
 https://github.com/maheshy6/The_Fullstack-_Engineer/blob/main/TravelItineraryPlanning/src/assets/Screenshot%202024-12-22%20210535.png
+
 
