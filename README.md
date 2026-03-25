@@ -8,6 +8,10 @@ Itinerary Management: Create day-to-day plans by adding activities, accommodatio
 Personalized Recommendations: Suggestions for restaurants, tours, and experiences based on user preferences.
 The Travel Planner project you worked on likely combines some or all of these features using a user-friendly interface, making it a handy tool for travelers to plan their trips efficiently and enjoyably. Let me know if you'd like to refine the introduction!
 
+<img width="1886" height="857" alt="image" src="https://github.com/user-attachments/assets/f1246544-1e54-4b07-962e-258694a8d6fe" />
+<img width="1874" height="943" alt="image" src="https://github.com/user-attachments/assets/eebc09e1-bbe5-4826-8722-08aeab9545ae" />
+
+
 ## Project Type
 Frontend | Backend | Fullstack
 
